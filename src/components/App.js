@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './styles/App.css';
 import PokeList from './PokeList';
+import DetailView from './DetailView';
 
 class App extends Component {
     constructor() {
@@ -11,6 +12,7 @@ class App extends Component {
         return (
             <div className="App">
                 <PokeList />
+                <DetailView />
             </div>
         );
     }
